@@ -36,7 +36,7 @@ jobs:
         expected-output: prod-88-loteb
         comparison-method: contains
         timeout: 1
-        max-score: 9
+        max-score: 10
     - name: P3
       id: p3
       uses: classroom-resources/autograding-io-grader@v1
@@ -108,7 +108,7 @@ jobs:
         expected-output: '250.0'
         comparison-method: contains
         timeout: 1
-        max-score: 8
+        max-score: 10
     - name: P1
       id: p1
       uses: classroom-resources/autograding-io-grader@v1
